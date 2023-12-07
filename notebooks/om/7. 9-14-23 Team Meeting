@@ -1,0 +1,9 @@
+Date: 9/14/23
+
+Overview: Project Proposal Review
+
+Record: Team met to go over the final project proposal before submittng. Made a few design decisions such as getting rid of temperature
+sensor that we were planning to add. We though the sensor would not be ideal for a consumer to have to install and use. We also decided
+to power the low voltage side of our design with a 5 volt battery since 5 volt. This 5 volt was a arbutary value that can be changed
+before final design. Once this was decided, I finished up making the changes to the subsystem requirments and everyone read through 
+the document one time. Once proof read, we agreed to submit the proposal.
