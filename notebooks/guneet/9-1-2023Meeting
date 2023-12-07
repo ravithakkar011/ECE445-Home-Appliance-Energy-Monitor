@@ -1,0 +1,4 @@
+Overview: Come up with brief idea on how our project should look like
+
+Record: Decided that outlet would be connected to our device. The first part of the circuit would be the sensors. They would sense the load being drawn and they would also be connected to the microcontroller. THe microcontroller would be 
+relaying information to the front end. The appliance would be connected directly to a socket in our device. 
