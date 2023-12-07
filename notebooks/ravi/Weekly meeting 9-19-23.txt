@@ -1,23 +1,9 @@
-Meeting with Zicheng Ma 9-12-23
+Meeting with Zicheng Ma 9-19-23
 
-Reviewing Project Proposal:
-
-Initial Questions:
--2 one-socket devices that communicate to a phone or a server is better
-than a spider cable
-
-
--Forgot to inlude power relay
--Be exact with requirements
--Don't draw block diagrams by hand, instead draw.io is reccomended
-	-label supply voltage
-	-dashed line
--For subsystem overview, inlude desription and purpose of subsystem, components for subsystem, and how subsystems interact with each other.
-	-For each component, expand upon them with a few words
-	-Subsystem requirements need to have some data
-	-Each requirement needs a verification
--Tolerance analysis needs mathematical analysis so there needs to be more detail and more specific numbers
--IEEE code, alter the sentence
--IF you think we're fine with ethical concerns.. we don't have ethical problems or safety problems
-	-Mention more about safety with high voltage environment
-	-how users will use it safely
+Design Document Feedback:
+-We need to reduce the scope of our project
+	-Reevaluating high level requirements
+-Be more detailed in documents such as these
+-Be prepared to answer tough questions
+-Comments were left on the design document
+-Organize a better schedule
