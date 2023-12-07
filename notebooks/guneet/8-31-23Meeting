@@ -1,0 +1,5 @@
+Overview: Finalize what project idea we are moving forward with.
+
+Record: We ended up choosing the home appliance energy monitor. This project utilized power concepts we had previously learned and did not require too many sensors to complete the project. THe other projects also lacked overall complexity.
+The features we chose for this project included the capability to measure power, a front end application for users to visualize power data, and control the load going to the product. The last capability we included was the capability to work
+with international socket standards of 250V and 20A. 
