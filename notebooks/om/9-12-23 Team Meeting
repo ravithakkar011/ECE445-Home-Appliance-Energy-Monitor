@@ -1,0 +1,5 @@
+Date: 9/12/23
+
+Overview: First team meeting with TA
+
+Record: Met with our TA, Zichang Ma, for the first time to discuss our project and proposal. Went over the idea of what we are going to do and how we are going to implement it. One suggestion made by our TA was to have two different designs for now since we were unsure on how we wanted to power our components that required low voltage. Since our board is already receiving 120 V from the outlet, and sending it back out to the appliance, option one was to step the 120V to 5V using a transformer. Another option he suggested was to include a battery into our design. Therefore, we created two designs and would finalize the design by the time the proposal was due. We also went through the proposal draft that we had, and our team suggested also including quantitative requirements to our high level requirements section. 
