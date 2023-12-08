@@ -5,3 +5,6 @@ Overview: Soldering components and assembling breadboard for mock demo
 Record: Soldered rest of the board including the microcontroller and sensor subsystem. Board was ready to be powered up. Jason
 checked out an auto transformer which was then connected to our board. Board was intact and successfully handling 120 voltage input. 
 Did not test if output was working. Low voltage side also recieved 5 volt input from high voltage side via the 120n to 5 v transformer. 
+Also assembled the breadboard circuit and requested firmware from guneet that sent a high and low signal per a interval 
+via the dev board pins. We could not get the dev board to do this so we used a wire that connected to 5 volts as a example of a signal
+from the microcontroller. This breadboard can be found in the notebook labeled "mock_demo_board.pdf".
