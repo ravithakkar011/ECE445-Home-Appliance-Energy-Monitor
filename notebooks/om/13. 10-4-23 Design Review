@@ -1,0 +1,9 @@
+Date: 10/4/23
+
+Overview: Desgin Review Takeaways
+
+Record: During our design review, the proffessor asked a few questions, some of which are addressed in the guneets 
+notebook in "post-ddr) document. Since I am focusing on the PCB and design, some of the design aspect the professor recommended
+was:
+  Narrow down scope of project to North American Standards: instead of compatibility of 250 V and 20 Amps, focus on 120 V and 20 Amp standard.
+  Use 120v to 5v transformer instead of the battery to power low voltage side pcb with one power source.
