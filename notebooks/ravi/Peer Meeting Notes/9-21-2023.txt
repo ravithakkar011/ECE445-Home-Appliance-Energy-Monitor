@@ -1,0 +1,11 @@
+Team Meeting, 9-21-23
+
+Objectives: Revising Block Diagram with TA
+
+
+Notes: After incorporating the feedback that we
+have recieved recently, we went ahead and revised our 
+block diagram and showed our TA. We were told to make some additional
+adjustments to our diagram such as labeling voltages and
+currents.
+

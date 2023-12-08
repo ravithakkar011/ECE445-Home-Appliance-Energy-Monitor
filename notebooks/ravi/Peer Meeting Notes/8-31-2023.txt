@@ -1,0 +1,15 @@
+ Team Meeting, 8-31-2023
+
+Objectives: Finalizing on project idea
+
+
+Notes:
+-Moving forward with home appliance energy monitor
+    -Pros: Complex project, real world applications, sustainability focus
+    -Cons: implemented before such as with comed tool(needs more advanced features)
+    -Additonal features: 
+        -We want to make sure that
+        we can make it compatible with all types of wall outlets
+        such as us and european standards
+        -We want to make a nice interface for a user to work with, visual
+    

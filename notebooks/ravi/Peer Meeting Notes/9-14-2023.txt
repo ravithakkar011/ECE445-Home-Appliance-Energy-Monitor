@@ -1,0 +1,12 @@
+Team Meeting, 9-14-2023
+
+Objectives: Project Proposal
+
+
+Notes: Team meeting to review final proposal before submission.
+Design decisions:
+Removed temperature sensor due to consumer installation concerns.
+Chose to power low voltage side with a 5-volt battery; subject to change before final design.
+Updated subsystem requirements based on new decisions.
+Collective final review of the document.
+Agreed to submit the proposal after proofreading.
