@@ -1,0 +1,5 @@
+Overview: Testing our sensor subsystem
+
+Record: We had to address a flashing issue we experienced over break. Turns out we were using the wrong bridge to flash so we had to check out the right bridge. Our sensors were still showing no input when we were working
+with it. We rechecked all connections and tested our code again but our current sensor blew up. This was probably due to a voltage arcing situation. Therefore, now the rest of our efforts were put into the power relay
+working. It was too late to get a current sensor in time for our final demo.
