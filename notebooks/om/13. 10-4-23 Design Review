@@ -7,3 +7,5 @@ notebook in "post-ddr) document. Since I am focusing on the PCB and design, some
 was:
   Narrow down scope of project to North American Standards: instead of compatibility of 250 V and 20 Amps, focus on 120 V and 20 Amp standard.
   Use 120v to 5v transformer instead of the battery to power low voltage side pcb with one power source.
+
+Also worked on project proposal revision. Revised the block diagram, and some of the subsystem explanations. 
