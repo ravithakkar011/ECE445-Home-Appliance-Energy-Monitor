@@ -1,0 +1,10 @@
+Date: 10/16/23
+
+Overview: TA checked PCB
+
+Record: I setup a meeting with Jason, since he know a lot about power electronic. He was able to check over my PCB and provide me with
+ways to refine my PCB. The first issue we fixed was the traces for the high current lines. He taught me how to make a plane that would
+be wide enough to handle the high voltage. He also provided me with the correct terminals to attach to the PCB for the input and output of
+our high voltage lines. We also went over the microcontroller section, that was given by the course, to fully understand what each part does
+and how it effects the chips boot mode. With the things he taught me, i went ahead and implemented that and was ready to put in the pcb order
+for the second round.
