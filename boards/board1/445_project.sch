@@ -1,0 +1,559 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 2050 1000 0    50   ~ 0
+Power Relay\n
+Text Notes 2250 7200 0    50   ~ 0
+Microcontroller
+Text Notes 8700 6100 0    50   ~ 0
+Power Management\n
+$Comp
+L Converter_ACDC:LRS-35-5 U?
+U 1 1 651F76EE
+P 7950 5800
+F 0 "U?" H 7800 5500 50  0001 C CNN
+F 1 "LRS-35-5" H 7950 5773 50  0000 C CNN
+F 2 "" H 7800 5500 50  0001 C CNN
+F 3 "https://www.meanwellusa.com/upload/pdf/LRS-35/LRS-35-spec.pdf" H 7800 5500 50  0001 C CNN
+	1    7950 5800
+	1    0    0    -1  
+$EndComp
+Text Notes 5500 750  0    50   ~ 0
+Output Socket\n
+Text Notes 5200 7250 0    50   ~ 0
+Input Socket\n
+$Comp
+L ESP32-S3-WROOM-1-N16R2:ESP32-S3-WROOM-1-N16R2 U?
+U 1 1 65206F9E
+P 2450 5450
+F 0 "U?" H 2450 6917 50  0000 C CNN
+F 1 "ESP32-S3-WROOM-1-N16R2" H 2450 6826 50  0000 C CNN
+F 2 "XCVR_ESP32-S3-WROOM-1-N16R2" H 2450 5450 50  0001 L BNN
+F 3 "" H 2450 5450 50  0001 L BNN
+F 4 "Espressif Systems" H 2450 5450 50  0001 L BNN "MF"
+F 5 "3.25mm" H 2450 5450 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "NON STANDARD Espressif Systems" H 2450 5450 50  0001 L BNN "Package"
+F 7 "None" H 2450 5450 50  0001 L BNN "Price"
+F 8 "https://www.snapeda.com/parts/ESP32-S3-WROOM-1-N16R2/Espressif+Systems/view-part/?ref=eda" H 2450 5450 50  0001 L BNN "Check_prices"
+F 9 "Manufacturer Recommendations" H 2450 5450 50  0001 L BNN "STANDARD"
+F 10 "v1.0" H 2450 5450 50  0001 L BNN "PARTREV"
+F 11 "https://www.snapeda.com/parts/ESP32-S3-WROOM-1-N16R2/Espressif+Systems/view-part/?ref=snap" H 2450 5450 50  0001 L BNN "SnapEDA_Link"
+F 12 "ESP32-S3-WROOM-1-N16R2" H 2450 5450 50  0001 L BNN "MP"
+F 13 "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=11099128&manufacturer=Espressif Systems&part_name=ESP32-S3-WROOM-1-N16R2&search_term=None" H 2450 5450 50  0001 L BNN "Purchase-URL"
+F 14 "\\nBluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount\\n" H 2450 5450 50  0001 L BNN "Description"
+F 15 "In Stock" H 2450 5450 50  0001 L BNN "Availability"
+F 16 "Espressif" H 2450 5450 50  0001 L BNN "MANUFACTURER"
+	1    2450 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 4850 1850 4850
+$Comp
+L power:GND #PWR?
+U 1 1 6521A9D6
+P 3650 6950
+F 0 "#PWR?" H 3650 6700 50  0001 C CNN
+F 1 "GND" H 3655 6777 50  0000 C CNN
+F 2 "" H 3650 6950 50  0001 C CNN
+F 3 "" H 3650 6950 50  0001 C CNN
+	1    3650 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 6950 3650 6650
+Wire Wire Line
+	3650 6650 3050 6650
+$Comp
+L Sensor_Current:ACS712xLCTR-20A U?
+U 1 1 6521EC4A
+P 10400 1900
+F 0 "U?" H 10400 2481 50  0000 C CNN
+F 1 "ACS712xLCTR-20A" H 10400 2390 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10500 1550 50  0001 L CIN
+F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 10400 1900 50  0001 C CNN
+	1    10400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65218E00
+P 7250 1300
+F 0 "#PWR?" H 7250 1050 50  0001 C CNN
+F 1 "GND" H 7255 1127 50  0000 C CNN
+F 2 "" H 7250 1300 50  0001 C CNN
+F 3 "" H 7250 1300 50  0001 C CNN
+	1    7250 1300
+	-1   0    0    1   
+$EndComp
+Text Notes 8400 1450 0    50   ~ 0
+Voltage sensor\n
+Text Notes 9300 850  0    50   ~ 0
+sensors\n
+Wire Wire Line
+	10400 2300 10400 2400
+Wire Wire Line
+	10800 1900 11050 1900
+Wire Wire Line
+	1100 4950 1850 4950
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 6522ABDD
+P 7600 1950
+F 0 "J?" H 7492 1525 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 7492 1616 50  0000 C CNN
+F 2 "" H 7600 1950 50  0001 C CNN
+F 3 "~" H 7600 1950 50  0001 C CNN
+	1    7600 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Sensor_Voltage:ZMPT101B U?
+U 1 1 6523543D
+P 8650 1900
+F 0 "U?" H 8650 1533 50  0000 C CNN
+F 1 "ZMPT101B" H 8650 1624 50  0000 C CNN
+F 2 "" H 8500 1100 50  0001 C CNN
+F 3 "https://www.lem.com/sites/default/files/products_datasheets/lv_25-p.pdf" V 9050 1550 50  0001 C CNN
+	1    8650 1900
+	-1   0    0    1   
+$EndComp
+Text Notes 7500 6350 0    50   ~ 0
+120-5 AC DC Converter
+Wire Wire Line
+	7250 2400 7250 1300
+Wire Wire Line
+	7250 2400 10200 2400
+Wire Wire Line
+	8250 1750 7800 1750
+Wire Wire Line
+	8250 1850 7800 1850
+Wire Wire Line
+	8250 1950 7800 1950
+Wire Wire Line
+	8250 2050 7800 2050
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 652476E0
+P 7800 2750
+F 0 "J?" H 7692 2325 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 7692 2416 50  0000 C CNN
+F 2 "" H 7800 2750 50  0001 C CNN
+F 3 "~" H 7800 2750 50  0001 C CNN
+	1    7800 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2650 7250 2650
+Wire Wire Line
+	7250 2650 7250 2400
+Connection ~ 7250 2400
+Wire Wire Line
+	7600 2750 7250 2750
+Wire Wire Line
+	7250 2750 7250 2650
+Connection ~ 7250 2650
+Wire Wire Line
+	7600 2850 1200 2850
+Wire Wire Line
+	1200 2850 1200 4850
+Wire Wire Line
+	11050 3250 1100 3250
+Wire Wire Line
+	1100 3250 1100 4950
+Wire Wire Line
+	11050 1900 11050 3250
+Wire Wire Line
+	7250 3450 7250 2950
+Wire Wire Line
+	7250 2950 7600 2950
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 6524E24F
+P 9100 5000
+F 0 "J?" V 8946 5048 50  0000 L CNN
+F 1 "Conn_01x02_Female" V 9037 5048 50  0000 L CNN
+F 2 "" H 9100 5000 50  0001 C CNN
+F 3 "~" H 9100 5000 50  0001 C CNN
+	1    9100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 6524EFC9
+P 9500 1850
+F 0 "J?" V 9346 1898 50  0000 L CNN
+F 1 "Conn_01x02_Female" V 9437 1898 50  0000 L CNN
+F 2 "" H 9500 1850 50  0001 C CNN
+F 3 "~" H 9500 1850 50  0001 C CNN
+	1    9500 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5000 8900 5000
+Wire Wire Line
+	9300 1850 9050 1850
+Wire Wire Line
+	9050 1850 9050 1800
+Wire Wire Line
+	9300 1950 9050 1950
+Wire Wire Line
+	9050 1950 9050 2000
+$Comp
+L Device:C C?
+U 1 1 65255D1C
+P 10850 2300
+F 0 "C?" H 10965 2346 50  0000 L CNN
+F 1 "C" H 10965 2255 50  0000 L CNN
+F 2 "" H 10888 2150 50  0001 C CNN
+F 3 "~" H 10850 2300 50  0001 C CNN
+	1    10850 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 2000 10850 2000
+Wire Wire Line
+	10850 2000 10850 2150
+Wire Wire Line
+	10850 2450 10850 2550
+Wire Wire Line
+	10850 2550 10200 2550
+Wire Wire Line
+	10200 2550 10200 2400
+Connection ~ 10200 2400
+Wire Wire Line
+	10200 2400 10400 2400
+Wire Wire Line
+	9700 3450 9700 5750
+Wire Wire Line
+	9700 5750 9350 5750
+Wire Wire Line
+	7250 3450 9700 3450
+Wire Wire Line
+	9700 3450 9700 1450
+Wire Wire Line
+	9700 1450 9800 1450
+Wire Wire Line
+	10400 1450 10400 1500
+Connection ~ 9700 3450
+$Comp
+L Device:C C?
+U 1 1 6525D62A
+P 9800 1150
+F 0 "C?" H 9915 1196 50  0000 L CNN
+F 1 "C" H 9915 1105 50  0000 L CNN
+F 2 "" H 9838 1000 50  0001 C CNN
+F 3 "~" H 9800 1150 50  0001 C CNN
+	1    9800 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6525E19F
+P 9800 750
+F 0 "#PWR?" H 9800 500 50  0001 C CNN
+F 1 "GND" H 9805 577 50  0000 C CNN
+F 2 "" H 9800 750 50  0001 C CNN
+F 3 "" H 9800 750 50  0001 C CNN
+	1    9800 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9800 1450 9800 1300
+Connection ~ 9800 1450
+Wire Wire Line
+	9800 1450 10400 1450
+Wire Wire Line
+	9800 1000 9800 750 
+$Comp
+L Relay:G5LE-1A K?
+U 1 1 65263F9E
+P 2250 1750
+F 0 "K?" V 1683 1750 50  0000 C CNN
+F 1 "G5LE-1A" V 1774 1750 50  0000 C CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 2700 1700 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 2250 1750 50  0001 C CNN
+	1    2250 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 1850 3600 1850
+Wire Wire Line
+	3600 1850 3600 3550
+Wire Wire Line
+	9800 3550 9800 1700
+Wire Wire Line
+	9800 1700 10000 1700
+Wire Wire Line
+	10000 2100 9900 2100
+Wire Wire Line
+	9900 2100 9900 3650
+Wire Wire Line
+	9900 3650 5800 3650
+Wire Wire Line
+	5800 3650 5800 1100
+Wire Wire Line
+	9800 3550 8050 3550
+Wire Wire Line
+	5700 4500 5400 4500
+Wire Wire Line
+	5400 4500 5400 5000
+Connection ~ 5400 5000
+Wire Wire Line
+	1950 1950 1400 1950
+Wire Wire Line
+	1400 1950 1400 3800
+Wire Wire Line
+	5500 3800 1400 3800
+Wire Wire Line
+	8050 3550 8050 5100
+Wire Wire Line
+	8050 5100 8900 5100
+Connection ~ 8050 3550
+Wire Wire Line
+	8050 3550 3600 3550
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 6528345A
+P 5400 7100
+F 0 "J?" V 5246 7248 50  0000 L CNN
+F 1 "Conn_01x03_Female" V 5337 7248 50  0000 L CNN
+F 2 "" H 5400 7100 50  0001 C CNN
+F 3 "~" H 5400 7100 50  0001 C CNN
+	1    5400 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 652859ED
+P 5800 900
+F 0 "J?" V 5738 712 50  0000 R CNN
+F 1 "Conn_01x03_Female" V 5647 712 50  0000 R CNN
+F 2 "" H 5800 900 50  0001 C CNN
+F 3 "~" H 5800 900 50  0001 C CNN
+	1    5800 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 1100 5700 4500
+Wire Wire Line
+	5300 6900 5300 6000
+Wire Wire Line
+	5300 1800 5900 1800
+Wire Wire Line
+	5900 1800 5900 1100
+$Comp
+L power:GND #PWR?
+U 1 1 6529215A
+P 3300 1100
+F 0 "#PWR?" H 3300 850 50  0001 C CNN
+F 1 "GND" H 3305 927 50  0000 C CNN
+F 2 "" H 3300 1100 50  0001 C CNN
+F 3 "" H 3300 1100 50  0001 C CNN
+	1    3300 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 1550 3300 1100
+Wire Wire Line
+	2550 1550 3300 1550
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 65295F54
+P 10650 5750
+F 0 "U?" H 10650 5992 50  0000 C CNN
+F 1 "AMS1117-3.3" H 10650 5901 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 10650 5950 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 10750 5500 50  0001 C CNN
+	1    10650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6529F0F5
+P 10200 6350
+F 0 "#PWR?" H 10200 6100 50  0001 C CNN
+F 1 "GND" H 10205 6177 50  0000 C CNN
+F 2 "" H 10200 6350 50  0001 C CNN
+F 3 "" H 10200 6350 50  0001 C CNN
+	1    10200 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 6050 10650 6300
+Wire Wire Line
+	4100 3900 4100 4250
+Wire Wire Line
+	4100 4250 3050 4250
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 652AD813
+P 10000 6250
+F 0 "J?" V 9846 6398 50  0000 L CNN
+F 1 "Conn_01x03_Female" V 9937 6398 50  0000 L CNN
+F 2 "" H 10000 6250 50  0001 C CNN
+F 3 "~" H 10000 6250 50  0001 C CNN
+	1    10000 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 5750 9800 5750
+Wire Wire Line
+	9800 5750 9800 5850
+Connection ~ 9700 5750
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 652B05A0
+P 10150 5250
+F 0 "J?" V 10088 5062 50  0000 R CNN
+F 1 "Conn_01x03_Female" V 9997 5062 50  0000 R CNN
+F 2 "" H 10150 5250 50  0001 C CNN
+F 3 "~" H 10150 5250 50  0001 C CNN
+	1    10150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9800 5850 9900 5850
+Wire Wire Line
+	9900 5850 9900 6050
+Wire Wire Line
+	10250 5450 10250 5750
+Wire Wire Line
+	10250 5750 10350 5750
+Wire Wire Line
+	10150 5450 10150 5850
+Wire Wire Line
+	10150 5850 10400 5850
+Wire Wire Line
+	10400 5850 10400 6300
+Wire Wire Line
+	10400 6300 10650 6300
+Wire Wire Line
+	10100 6050 10200 6050
+Wire Wire Line
+	10200 6050 10200 6350
+Wire Wire Line
+	10950 5750 11100 5750
+Wire Wire Line
+	11100 5750 11100 5100
+Wire Wire Line
+	11100 5100 9900 5100
+Wire Wire Line
+	9900 5100 9900 5550
+Wire Wire Line
+	9900 5550 10050 5550
+Wire Wire Line
+	10050 5550 10050 5450
+Wire Wire Line
+	10000 6050 10000 5650
+Wire Wire Line
+	10000 5650 9800 5650
+Wire Wire Line
+	9800 5650 9800 3900
+Wire Wire Line
+	9800 3900 4100 3900
+$Comp
+L Connector:Conn_01x03_Female 5V_3.3_boost
+U 1 1 652C6734
+P 800 4550
+F 0 "5V_3.3_boost" V 738 4362 50  0000 R CNN
+F 1 "Conn_01x03_Female" V 647 4362 50  0000 R CNN
+F 2 "" H 800 4550 50  0001 C CNN
+F 3 "~" H 800 4550 50  0001 C CNN
+	1    800  4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 652C8331
+P 800 5200
+F 0 "#PWR?" H 800 4950 50  0001 C CNN
+F 1 "GND" H 805 5027 50  0000 C CNN
+F 2 "" H 800 5200 50  0001 C CNN
+F 3 "" H 800 5200 50  0001 C CNN
+	1    800  5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  5200 800  4750
+Wire Wire Line
+	900  5050 900  4750
+Wire Wire Line
+	900  5050 1850 5050
+Wire Wire Line
+	700  4750 550  4750
+Wire Wire Line
+	550  4750 550  1550
+Wire Wire Line
+	550  1550 1950 1550
+Wire Wire Line
+	1850 4350 1550 4350
+Wire Wire Line
+	1550 4350 1550 3900
+Wire Wire Line
+	1550 3900 4100 3900
+Connection ~ 4100 3900
+Wire Wire Line
+	5500 3800 5500 6300
+Wire Wire Line
+	5400 5000 5400 6150
+$Comp
+L Connector:Conn_01x05_Female J?
+U 1 1 652DDA23
+P 7050 5500
+F 0 "J?" V 6988 5212 50  0000 R CNN
+F 1 "Conn_01x05_Female" V 6897 5212 50  0000 R CNN
+F 2 "" H 7050 5500 50  0001 C CNN
+F 3 "~" H 7050 5500 50  0001 C CNN
+	1    7050 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 6300 7250 6300
+Wire Wire Line
+	7250 6300 7250 5700
+Connection ~ 5500 6300
+Wire Wire Line
+	5500 6300 5500 6900
+Wire Wire Line
+	5400 6150 7150 6150
+Wire Wire Line
+	7150 6150 7150 5700
+Connection ~ 5400 6150
+Wire Wire Line
+	5400 6150 5400 6900
+Wire Wire Line
+	5300 6000 7050 6000
+Wire Wire Line
+	7050 6000 7050 5700
+Connection ~ 5300 6000
+Wire Wire Line
+	5300 6000 5300 1800
+Wire Wire Line
+	6850 5700 6600 5700
+Wire Wire Line
+	6600 5700 6600 5400
+Wire Wire Line
+	6600 5400 9350 5400
+Wire Wire Line
+	9350 5400 9350 5750
+Text Notes 7800 6450 0    50   ~ 0
+MODULE\n
+Text Notes 8500 1450 0    50   ~ 0
+MODULE\n\n
+Text Notes 10650 6400 0    50   ~ 0
+MODULE\n
+Text Notes 650  4450 0    50   ~ 0
+MODULE\n
+$EndSCHEMATC
