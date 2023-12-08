@@ -1,0 +1,5 @@
+Overview: First Meeting with our TA to discuss Project and Project Proposal
+
+Record: We met with our TA Zicheng. He looked over our project proposal and suggested having two separate designs. One design was with using a 5V battery to power our circuit. The second design was using the 120V to power the board. The 120
+Volt design would need a line of transformers to step the voltage down to the appropriate values to power the sensors and microcontroller. This gave us the opportunity to come up with two designs to decide between by the proposal deadline.
+Additionally, our high level requirements needed work. We came in thinking that we just had to discuss some qualitative requirements. However, we were told to make them more quantitative.
