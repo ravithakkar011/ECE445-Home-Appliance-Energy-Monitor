@@ -1,0 +1,8 @@
+Date: 12/2/23
+
+Overview: Testing
+
+Record: Got the new current sensor and added it to the design. Retest the circuit to see if we were able to getting correct reading,
+but had issue with values were being output but not correct. These value were way to high therefore we used the voltmeter and current clamp
+to get the correct value using the input to each sensor. Using this, we created a video of us performing our test which is in the shared 
+notebook.
