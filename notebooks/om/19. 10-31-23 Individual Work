@@ -1,0 +1,12 @@
+Date: 10/31/23
+
+Overview: Parts pickup and PCB order
+
+Record: I went ahead and put in my PCB order for the PCB with test points. I also picked up my parts but was still missing my 120V to 5V
+transformer. Since I still did not have enough parts for testing, I decided to begin making a breadboard model. This model would have three
+sections to symbolize the three subsystems our design has:
+  Microcontorller
+  Power
+  Sensor
+The goal of this breadboard was to control output of the power relay via the dev board. This would be similar to our design except there
+is no bluetooth or gui involved.
