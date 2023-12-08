@@ -1,0 +1,5 @@
+Overview: Reading datasheets and understanding how to write firmware with the ESP and Arduino IDE
+
+Record: I started reading the datasheets of our sensors. I had to ensure what type of output would be coming out of each sensor
+and what manipulations I would have to do to them. I also started watching tutorials on writing firmware with the arduino IDE.
+This would serve as foundation for writing good firmware down the line.
