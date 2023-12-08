@@ -1,0 +1,5 @@
+Overview: Continue working on project proposal
+
+Record: A lot of time was spent going over and revising each other's parts of the project proposal. We came to the conclusion that the sensors required would be current sensor, voltage sensor, and an energy metering IC. To get the proper
+current and voltage, we would need the current sensor to be in series with the load and the voltage sensor to be in parallel with the load. Our entire subsystem would be powered by a 5V battery as the sensors need 5V to function. A 5 to 3.3
+would also be included to power the microcontroller with the apt 3.3 V. Lastly, an external bluetooth module would be used to enable wireless communication with a front end app. Lastly, I drew our initial sketch of our block diagram.
