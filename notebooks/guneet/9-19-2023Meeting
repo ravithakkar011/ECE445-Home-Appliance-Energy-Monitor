@@ -1,0 +1,5 @@
+Overview: Meeting to discuss parts selection
+
+Record: We had to select the right parts for our project. I suggested using the R7FA6M4 microcontroller and DA-14531 Bluetooth module from Renesas Electronics, as I used them this past summer at my internship. The remaining parts were
+all selected based on user reviews and capacity to handle high current and voltage. The voltage module was renowned module known as the ZMPT01B and the current sensor was known as the ACS712-20A. We selected a famous power relay 
+known as the Omron G5Le.
