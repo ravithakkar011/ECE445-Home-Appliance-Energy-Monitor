@@ -1,0 +1,9 @@
+Date: 10/25/23
+
+Overview: Individual progress report and PCB order
+
+Record: Went and got my PCBs from the ECEB along with some of the parts that came in. I placed the parts on my board to see how they would
+fit and if the footprint was correct. Unfortunatly, i ordered the wrong 120 ot 5 v transformer so I had to put in a new order for that. I
+also realized that my PCB did not have any test points. Therefore, I added test points for the output of the voltage sensor, current sensor,
+and the output of the microcontroller pin contorlling the power relay. I chose not to start soldering onto this board as not enough of my 
+parts came in for any testing to be done. I filled out the individual progress report as they were due today.
