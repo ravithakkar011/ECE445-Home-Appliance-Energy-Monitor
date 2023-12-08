@@ -1,0 +1,13 @@
+Date: 9/30/23
+
+Overview: Began Designing the PCB
+
+Record: I downloaded the necessary software to begin designing the PCB. Although I was able to find many of the parts, I was hesitant 
+to truly start designing the board as I wanted to wait till after the design review to confirm our design is valid. Therefore, I played 
+around with the kiCad software just to get familiar with it. This was one of my first times using this software besides the CAD 
+assignment we had earlier in the semester. I also did some research on how to handle voltage arcing and high current and learned two 
+things:
+	Give traces room to prevent voltage arcing
+	Create thick traces to avoid overheating due to high current
+I also needed to confirm what kind of terminals to use for our PCB, if our power relay needs to be single or double pole, and if 
+we should have separate PCB’s for low and high voltage sections. 
