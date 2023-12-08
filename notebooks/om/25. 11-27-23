@@ -1,0 +1,8 @@
+Date: 11/27/23
+
+Overview: Flashing and testing sensors
+
+Record: Fixed flashing issues that we were dealing with over break. Now had to confirm if the firmware worked. We powered on the device and
+plugged in a device. Device plugged in would work, but sensor and current readings were kept showing no input. Had to keep checking connections
+and test with lab equipment. One test run blew up our current sensor due to voltage arching. Decided to call it quits on the sensor subsystem
+and work on the power relay functionality.
