@@ -1,0 +1,4 @@
+Overview: Retest with new current sensor
+
+Record: We got our new sensors. We put it in our device but now it was outputting values that were inaccurate and too high. Therefore we put in a current clamp on the wire the sensor was measuring the current out of. From
+there, we got accurate measurements of the current and voltage. We recorded a video of our project working from that to have ready for our final presentation tomorrow.
