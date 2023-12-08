@@ -1,0 +1,8 @@
+Date: 11/29/23
+
+Overview: Final Demo
+
+Record: Performed the final demo and got feedback from the final proffessor to try and get a current sensor module in the design. Then
+try to retest to see if we cna produce value for our tests. Power relay worked but would shut off randomly. This was due to a missing 
+diode that would have prevented inductive flyback when turning off the relay.Ordered a new current sensor module, and gave enclosure to 
+machine shop to create access hole for boot and restart. Also asked to create a spot for current sensor module to sit in.
