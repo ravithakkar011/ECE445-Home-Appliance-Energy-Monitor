@@ -1,0 +1,8 @@
+Team Meeting, 11-20-2023
+
+Objectives: Finalizing python code over fall break
+
+
+Notes: Met with om in person and guneet virtually over fall break to work on the application, 
+flash the firmware code and try to connect to the ESP32 over BLE. Was able to successfully 
+send an integer number as a signal from my computer to the ESP32 but not back.

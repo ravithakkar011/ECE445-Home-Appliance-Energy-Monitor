@@ -1,0 +1,11 @@
+Team Meeting, 9-25-2023
+
+Objectives: Met to discuss project proposal
+
+
+Notes:
+-Worked on project proposal.
+-Divided work among team members.
+-Responsible for:
+    -Writing about the subsystem.
+    -Assisting in developing high-level requirements.

@@ -1,0 +1,48 @@
+Entry 1: Scoping Application Requirements
+
+Date: 10-1-23
+Notes: Defined the primary objective: to create a GUI application using Tkinter for controlling ESP32 devices over BLE. Key functions include scanning for BLE devices, connecting to a selected device, and sending commands to control an appliance. Planned to incorporate asynchronous operations to ensure responsiveness.
+Entry 2: Initial Setup and Environment Configuration
+
+Date: 10-4-23
+Notes: Set up the development environment. Encountered some challenges with Python version compatibility, particularly with the asyncio and bleak libraries. Decided to use Python 3.9 to ensure compatibility.
+Entry 3: Designing the GUI Layout with Tkinter
+
+Date: 10-10-23
+Notes: Started designing the GUI layout. Faced some issues with aligning widgets in Tkinter and choosing an appropriate widget for device selection (decided on Combobox). Spent time understanding the grid system in Tkinter for a clean layout.
+Entry 4: Implementing BLE Scanning
+
+Date: 10-15-23
+Notes: Integrated BLE scanning functionality. Initially struggled with the asynchronous nature of BleakScanner.discover(). Implemented threading to run the asyncio event loop without freezing the GUI.
+Entry 5: Connecting to BLE Devices
+
+Date: 10-18-23
+Notes: Developed the feature to connect to a selected BLE device. Encountered issues with device disconnections and implemented a reconnect function as a workaround.
+Entry 6: Sending Commands Over BLE
+
+Date: 10-22-23
+Notes: Implemented the functionality to send commands ('On', 'Off') to the ESP32. Dealt with exceptions and timeouts in the BLE communication, ensuring the application remains stable.
+Entry 7: Error Handling and Status Updates
+
+Date: 10-26-23
+Notes: Focused on robust error handling and providing real-time status updates to the user. This required careful handling of exceptions and updates to the GUI from the asynchronous context.
+Entry 8: Debugging and Enhancing BLE Communication
+
+Date: 11-1-23
+Notes: Debugged issues with BLE communication, especially around consistent device responses. Improved the logic for handling BLE device responses and timeouts.
+Entry 9: User Interface Improvements
+
+Date: 11-6-23
+Notes: Improved the user interface for better user experience. Adjusted the spacing and alignment of elements, and added tooltips for better clarity.
+Entry 10: Implementing Asynchronous Event Handling
+
+Date: 11-12-23
+Notes: Worked on improving the asynchronous event handling. Fixed issues where the GUI was becoming unresponsive during long-running BLE operations.
+Entry 11: Final Testing and Bug Fixes
+
+Date: 11-20-23
+Notes: Conducted thorough testing of the application. Fixed several minor bugs related to device scanning and state management. Prepared for final deployment.
+Entry 12: Executible and Documentation
+
+Date: 11-27-23
+Notes: Finalized the application to be ready to be used as an executible. Wrote comprehensive documentation covering setup, usage, and troubleshooting. Prepared a plan for potential future enhancements, including support for more BLE characteristics and devices.

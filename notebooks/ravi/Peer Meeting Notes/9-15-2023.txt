@@ -1,0 +1,15 @@
+Team Meeting, 9-15-2023
+
+Objectives: Meeting with Machine Shop
+
+
+Notes: Evaluated potential concerns with the machine shop.
+
+We went to the machine shop to introduce ourselves and explain our project. 
+there were potential concerns with having a metal
+box because it would potentially block bluetooth
+signals which would siginificantly impact our range.
+Meeting with Gregg was very helpful because he helped
+us inform our physical design of the device.
+
+
