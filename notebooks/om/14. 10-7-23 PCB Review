@@ -1,0 +1,9 @@
+Date: 10/7/23
+
+Overview: PCB design review
+
+Record: Although I had no pcb ready to be reviewed during the PCB review, I creared a sketch out our design to verify if the design would
+allow us to power the appliance via the outlet while measuring the voltage and current. I also wanted ot make sure that the power relay
+was in the correct spot to turn on and off the appliance while also allowing for correct sensor readings. This sketch is provided in this
+notebook under "445_circuit_drawing.pdf". Once we verified the sketch, I also verified if the parts I choose were correct. The TA verified
+the parts, sketch, and provided me with the link of the starter schematic for the ESP32 to start designing in kicad.
