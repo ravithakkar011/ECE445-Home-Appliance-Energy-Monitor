@@ -1,0 +1,4 @@
+Overview: Work done during Thanksgiving break
+
+Record: I sent Om the firmware I had been working on to test on the ESP on our PCB. That code was not working properly so I spent time going over the datasheets and understanding how the ESP
+works with analog signals. I refined my code based on that and got it ready for testing when we got back from break.
