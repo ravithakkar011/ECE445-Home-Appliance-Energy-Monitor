@@ -1,0 +1,4 @@
+Overview: Individual Work with setting up IDE
+
+Record: I was in charge of writing the firmware. We eventually decided on the ESP32 as our microcontroller. Therefore I had to set up the IDE. I set the IDE up and flashed the dev board for the first time.
+It flashed properly thus proving the setup was done correctly.
