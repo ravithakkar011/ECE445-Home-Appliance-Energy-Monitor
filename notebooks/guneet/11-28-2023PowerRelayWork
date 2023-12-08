@@ -1,0 +1,5 @@
+Record: Had to quickly fix up our power relay suddenly not working
+
+Overview: Our power relay suddenly stopped working. This was probably due to the voltage arc situation from the night before. Our 3.3 to 5 boost was not providing enough power to the power relay. We had to
+incorporate a transistor with a 5 volt signal. That signal would be fed into the power relay, thus appropriately powering this component. We then ran some last minute checking to see if our GUI was working
+and got ready for our final demo. 
