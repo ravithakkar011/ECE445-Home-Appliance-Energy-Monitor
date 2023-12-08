@@ -4,4 +4,5 @@ Overview: Mock Demo
 
 Record: Showed our TA the breadboard model of our product. This showed him how our subsystem would be interacting.This model used a trnasistor
 and not a power relay. We showed him the drain going from 0 volts to 5 volts and vise versa each time the input from the microcontroller was 
-switch to high or low. Also discussed the firmware and gui progress with the TA.
+switch to high or low. Also discussed the firmware and gui progress with the TA. We also picked up our enclosure and made sure it had
+the correct access point to feed in the input and output. 
