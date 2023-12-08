@@ -1,0 +1,8 @@
+Date: 11/28/23
+
+Overview: Power Relay testing
+
+Record: Previous day, we gave up on the sensor subsystem, and decided to work fully on the power relay functionality. Some issue
+with the power relay included the 3.3 to 5 v boost not supplying the relay with 5 v per the microcontrollers request. This was does to voltage
+drop through our connection. Replaced the boost with a transistor that used a 5 volt signal to pass into the power relay per the microcontrollers
+request. Tested the gui and got ready for the Demo the next day.
