@@ -1,0 +1,6 @@
+Record: Final Demo
+
+Overview: We had our final demo. The professor told us to try ordering in a new sensor and seeing if it would work in time for our final presentation. 
+During the test, our power relay would continue shutting off randomly. This could be due to a voltage spike occuring due to an omitted diode after the relay.
+We were also told that it was dangerous to not have our enclosure's lid on while demoing and clicking the micrcontroller's reset button. Therefore, we had to 
+drop off our enclosure to get a button added outside the enclosure in time for our final presentation.
