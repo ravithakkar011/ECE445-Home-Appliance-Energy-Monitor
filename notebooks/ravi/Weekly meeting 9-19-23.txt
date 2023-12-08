@@ -1,9 +1,0 @@
-Meeting with Zicheng Ma 9-19-23
-
-Design Document Feedback:
--We need to reduce the scope of our project
-	-Reevaluating high level requirements
--Be more detailed in documents such as these
--Be prepared to answer tough questions
--Comments were left on the design document
--Organize a better schedule
