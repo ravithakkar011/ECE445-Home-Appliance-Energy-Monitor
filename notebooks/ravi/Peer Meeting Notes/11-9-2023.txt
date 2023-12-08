@@ -1,0 +1,8 @@
+TA Weekly Meeting, 11-9-2023
+
+Objectives: PCB Updates
+
+
+Notes: Om updated TA on PCB updates and we talked a bit about the application I'm creating, including
+how I will be connecting through bluetooth and what tools I'm using
+

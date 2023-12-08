@@ -1,0 +1,10 @@
+TA Meeting, 11/16/23
+
+Overview: Mock Demo Review
+
+Demonstrated breadboard model of our product to the TA.
+Highlighted subsystem interactions within the model.
+Used a transistor instead of a power relay.
+Showed the drain fluctuating between 0 volts and 5 volts in response to microcontroller input changes (high/low).
+Discussed firmware and GUI development progress.
+Collected our enclosure; confirmed the presence of correct input and output access points.
